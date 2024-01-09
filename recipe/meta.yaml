@@ -1,4 +1,4 @@
-{% set version = "1.6-0.12" %}
+{% set version = "1.6-0.13" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RTriangle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RTriangle/RTriangle_{{ version }}.tar.gz
-  sha256: bed711fa926569cc80b0735b4a042c1f9c9c9a2f271ae20a3791f7a9765d6bdb
+  sha256: 86dd62086c7bb6d6609502d9c1180d3d060ddad8f0dfb5f334115547c6a771e5
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
