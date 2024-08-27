@@ -9,6 +9,8 @@ Package license: CC-BY-NC-SA-4.0
 
 Summary: This is a port of Jonathan Shewchuk's Triangle library to R. From his description: "Triangle generates exact Delaunay triangulations, constrained Delaunay triangulations, conforming Delaunay triangulations, Voronoi diagrams, and high-quality triangular meshes. The latter can be generated with no small or large angles, and are thus suitable for finite element analysis."
 
+Development: https://github.com/davidcsterratt/RTriangle
+
 Current build status
 ====================
 
