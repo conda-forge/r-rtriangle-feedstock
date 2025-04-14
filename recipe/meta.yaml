@@ -1,4 +1,4 @@
-{% set version = "1.6-0.14" %}
+{% set version = "1.6-0.15" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RTriangle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RTriangle/RTriangle_{{ version }}.tar.gz
-  sha256: 3bbdb60cce368665964c912e52d13bc16fe0ac8f63841d4d291f0a98bdefa713
+  sha256: b1c5c5c7152c1b28d4a46c838ffdda28a2470152fe74814d9d02b908feed4306
 
 build:
   number: 0
